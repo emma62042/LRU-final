@@ -1,0 +1,14 @@
+﻿作業：使用C語言實作Least Recently Used (LRU)演算法
+條件及限制：
+ 
+ 1. Buffer size (memero大小): 512 MB
+ 
+ 2. Block size: 4KB
+  
+ 3. 讀取提供的workload(共五個)，算出hit ratio，同時請利用gettimeofday()這個function來測量執行時間。workload內的每一筆資料代表其block number。
+
+ 4. 請使用除了array之外的資料結構實現此演算法(ex: tree, linked list, hash...)
+  
+ 5. 多多互相討論
+
+繳交期限：9/15之前，之後要講解如何實作以及測試執行結果。
